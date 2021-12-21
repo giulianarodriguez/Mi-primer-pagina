@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Desafio Bootstrap</title>
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="navbar" data-bs-offset="10">
+
+    <!--Nav-->
+
+    <header>
+
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+
+            <div class="container-fluid">
+
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a  href="#Inicio">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a  href="#SobreMi">Sobre Mi</a>
+                        </li>
+                        <li class="nav-item">
+                            <a  href="#More">More!</a>
+                        </li>
+                        <li class="nav-item">
+                            <a  href="#Portfolio">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#Contacto">Contacto</a>
+                        </li>
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </nav>
+
+    </header>
+    
+    <div class="container-fluid">
+
+        <!--Presentacion-->
+    
+        <section id="Inicio" class="d-flex align-items-center justify-content-center">
+
+            <div class="row d-flex align-items-center" >
+
+                <div class="col-md-3">
+
+                    <article id="foto">
+                        <img class="mx-auto d-block" src="Yo.png" alt="Foto" width="250">
+                    </article>
+
+                </div>
+
+                <div class="col-md-9 nombre">
+
+                    <h1 class="animacion"> Giuliana Rodriguez </h1> 
+
+                    <h5> Diseñadora Gráfica - Diseñadora UX/UI - Desarrolladora Web </h5>
+        
+                </div>
+
+              </div>
+
+        </section>
+
+        <!--Sobre mi-->
+
+        <section id="SobreMi">
+
+            <h3>Sobre Mi</h3>
+
+            <p>¡Hola! soy <strong>Giuliana</strong> tengo 24 años y soy <strong>Diseñadora Gráfica</strong> desde hace 2 años, durante la pandemia decidí crear mi propia marca y un emprendimiento en Instagram llamado <strong><i><a id="bio" target="_blank" href="https://www.instagram.com/algomasquediseno/">More! Algo más que diseño</a></i></strong>.</p>
+                
+            <p>Este año decidí seguir creciendo y ampliar mis conocimientos en otras ramas del diseño y la tecnología como lo son el <strong>Diseño UX/UI</strong> y el <strong>Desarrollo Front-End</strong>.</p>
+            
+            <p>Como proyecto en el curso de Diseño UX/UI cree el prototipo de la aplicación <strong><a id="bio" target="_blank" href="https://www.behance.net/gallery/128223901/App-PawMatch">PawMatch</a></strong> dedicada al encuentro, la adopción y el cuidado de mascotas, <i id="dato">(Pueden ver el proyecto entrando a mi perfil de<a target="_blank" href="https://www.behance.net/giulianrodrgu1"> Behance </a> o haciendo click en el nombre de la app)</i> y es por el amor que le puse a ese proyecto y mis ganas de que realmente exista que decidí comenzar la carrera de <strong>Desarrollo de Aplicaciones</strong>.</p>
+            
+            <p>Como consecuencia de todo esto le puse una pausa a mi emprendimiento para dedicarme plenamente a seguir estudiando y el día de mañana cuando pueda darle el 100% de mi atención como merece, retomarlo.</p>
+                
+            <section id="fin">
+                <p>Espero que les guste y ¡Gracias por visitar mi pagina!</p>
+            </section>
+
+            <!--Seccion Estudios-->
+
+            <h3 class="estudios">Estudios</h3>
+
+            <section id="frase">
+
+                <h4><i>"Tu estudio de hoy es una inversión para el mañana. <br> Continua estudiando, el cansancio es temporal, la satisfacción es para siempre"</i></h4>
+
+            </section>
+
+            <!-- Tabla de estudios --> 
+
+            <div class="container-fluid px-3">
+                <table class="table table-striped">
+                    <thead>
+                    <tr>
+                        <th>Año</th>
+                        <th>Título</th>
+                        <th>Institución</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="info">
+                            <td>2016-2019</td>
+                            <td>Diseñadora Gráfica</td>
+                            <td>E.A.V. Antonio Berni</td>
+                        </tr>
+                        <tr class="info">
+                            <td>2021</td>
+                            <td>Desarrolladora Web</td>
+                            <td>Digital Bluee</td>
+                        </tr>
+                        <tr class="info">
+                            <td>2021 - Actualidad</td>
+                            <td>Diseñadora UX/UI</td>
+                            <td>CoderHouse</td>
+                        </tr>
+                        <tr class="info">
+                            <td>2021 - Actualidad</td>
+                            <td>Desarrollo de Aplicaciones</td>
+                            <td>CoderHouse</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+
+        </section>
+
+        <!--More!-->
+
+        <section id="More">
+
+            <article id="more">
+                <img class="Foto" src="more.png" alt="Foto" width="250">
+            </article>
+
+            <p>La idea de More nació al principio de la pandemia, yo estaba recíen recibida y con tiempo libre en mi casa haciendo algunos trabajos a mis conocidos y ahí fue cuando cree <strong><a target="_blank" href="https://www.instagram.com/dg.moredesign/">More Design</a></strong> despues de un tiempo sentí que ya no me representaba, que no me estaba gustando la identidad que estaba reflejando y decidí hacer un re-diseño de mi propia marca.</p>
+
+            <p>Y así fue que en abril del 2021 nació <strong><a target="_blank" href="https://www.instagram.com/algomasquediseno/"> More! Algo más que diseño</a></strong> y comencé de nuevo, esta vez con más ganas y con una identidad que me representaba un poco más.</p>
+
+            <p>More para mi representa muchas cosas y es más que solo un emprendimiento, por eso aunque desde que volví a estudiar lo puse en pausa en las redes sociales me mantengo realizando trabajos a mis conocidos o a las personas que llegan a mi por la recomendación de un cliente satisfecho y no es mi plan dejar que quede solo en eso, una cuenta de Instagram, sinó que crezca a la par mio.</p>
+
+        </section> 
+
+        <!--Portfolio-->
+
+        <section id="Portfolio">
+
+            <h3>Portfolio</h3>
+
+            <section id="frase">
+
+                <h4><i>"Diseño no es lo que ves, sino lo que debes hacer que otras personas vean"</i></h4>
+                    
+            </section>
+
+            <section id="logos">
+            
+                <img src="Almendra.jpg" alt="Logo Almendra Clothes" width="300">
+                <img src="Unika.png" alt="Logo Unika" width="300">
+                <img src="Ananda.jpg" alt="Logo Universo Ananda" width="300">
+                <img src="Budita.jpg" alt="Logo Budita Baby" width="300">
+                <img src="Ziora.jpg" alt="Logo Ziora Store" width="300">
+                <img src="Coskids.jpg" alt="Logo Coskids" width="300">
+                    
+            </section>
+
+        </section>
+
+        <!--Formulario de contacto-->
+
+        <section class="container-fluid" id="Contacto">
+
+            <h3 class="contacto">Contacto</h3>
+
+            <form class="container" action="/action_page.php">
+
+                <div class="form-floating mb-3 mt-2">
+
+                    <input type="text" class="form-control" name="Nombreyapellido" placeholder="Ingrese su nombre aquí">
+
+                    <label for="Nombreyapellido">Nombre</label>
+
+                </div>
+
+                <div class="input-group form-floating mb-3 mt-2">
+
+                  <input type="text" class="form-control" placeholder="Ingrese su correo electrónico" name="correoelectronico">
+
+                  <label for="correoelectronico">Correo electrónico</label>
+
+                  <button type="button" class="dropdown-toggle" data-bs-toggle="dropdown">@mail.com</button>
+
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">@gmail.com</a></li>
+                    <li><a class="dropdown-item" href="#">@yahoo.com.ar</a></li>
+                    <li><a class="dropdown-item" href="#">@hotmail.com</a></li>
+                    <li><a class="dropdown-item" href="#">@outlook.com</a></li>
+                  </ul>
+
+                </div>
+
+                <div class="form-floating mb-3 mt-2">
+
+                    <textarea class="form-control pb-4" id="comment" name="consultas" placeholder="Introduzca su consulta aqui"></textarea>
+
+                    <label for="comment">Consulta</label>
+
+                </div>
+
+                <input type="submit"  value="Enviar formulario">
+                <input type="reset" value="Limpiar formulario">
+                <input type="button" value="Sin acciones">
+
+            </form>
+            
+        </section>
+        
+    </div>
+
+    <!--Footer-->
+
+    <footer class="footer">
+
+        <a target="_blank" href="https://www.linkedin.com/in/giuliana-rodriguez-dg/"> Linkedin </a>
+        <a target="_blank" href="https://www.behance.net/giulianrodrgu1"> Behance </a>
+        <p>Mail</p>
+        <p>Buenos Aires, Argentina</p>
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
